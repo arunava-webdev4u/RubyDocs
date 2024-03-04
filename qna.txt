@@ -1,0 +1,44 @@
+puts vs print
+retru, redo, error hndl
+until vs unless
+
+### new features ###
+number.even?
+number.odd?
+Ex: 5.odd?
+
+### new features ###
+a.between?(b,c)
+or
+a.between?b,c
+
+symbols vs string
+
+procs
+
+links
+https://medium.com/@athiraramanan29/difference-between-each-map-collect-select-inject-reduce-and-detect-in-ruby-6089f9202283
+
+https://www.geeksforgeeks.org/ruby-types-of-iterators/
+
+https://www.freecodecamp.org/news/common-array-methods-in-ruby/
+
+ques-
+
+[17:30] Tanisha Dilawari
+input = {"a": { "b":{ "c": [] },"d": {} }, "e": "e", "f": nil, "g": -2 }
+
+
+
+
+Postgresql installation:
+sudo apt install postgresql postgresql-contrib libpq-dev -y
+sudo systemctl start postgresql
+sudo systemctl enable postgresql
+sudo -i -u postgres psql
+=# create role arunava with createdb login password 'arunava';
+=# \du
+To exit: ctrl+z
+
+HTTP?
+=> https://code.tutsplus.com/http-the-protocol-every-web-developer-must-know-part-1--net-31177t
