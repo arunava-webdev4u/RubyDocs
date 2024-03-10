@@ -111,7 +111,12 @@ Literals of Ruby Array are created by placing a comma-separated series of object
 ```ruby
 #!/usr/bin/ruby
 
-ary = [  "fred", 10, 3.14, "This is a string", "last element", ]
+arr = [  "fred", 10, 3.14, "This is a string", "last element", 'its end' ]
+
+arr = [ "a", "b", ["c", "d"], ["e", "f"]]
+
+arr = [ "a", "b", ["c", "d"], [1, 2, 3, [4.5, 6.67, 9.01], ["A", "B"]]]
+
 ```
 
 ## Ruby Hashes

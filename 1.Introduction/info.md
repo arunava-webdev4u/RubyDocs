@@ -40,9 +40,9 @@ In 2005, they released their first Ruby framework "Ruby on Rails". The framework
 
 ## Reserved Words
 They mey not be used as variable or constant names.
-
-| BEGIN | do | next | then |
+|  |  |  |  |
 | ------ | ------ | ------ | ------ |
+| BEGIN | do | next | then |
 | END | else | nil | true |
 | alias | elsif | not | undef |
 | and | end | or | unless |

@@ -2,6 +2,8 @@
 
 ## while loop
 ```ruby
+i = 0
+num = 5
 while i < num  do
     puts("while = #{i}")
     i +=1
@@ -13,7 +15,7 @@ while x >= 0
 end
 ```
 
-## do while loop
+## loop
 ```ruby
 ans = 0
 loop do
@@ -25,7 +27,7 @@ loop do
 end
 ```
 
-## while modifier
+## while modifier (similar to do while loop)
 ```ruby
 i = 0
 begin
@@ -44,7 +46,7 @@ end
 ```
 ## loop using array
 ```ruby
-x = ["Blue", "Red", "Green", "Yellow", "White"]   
+x = ["Blue", "Red", "Green", "Yellow", "White"]
 for i in x do   
     puts i   
 end
@@ -52,6 +54,7 @@ end
 
 ## each, for array
 ```ruby
+x = ["Blue", "Red", "Green", "Yellow", "White"]
 x.each do |user|
     puts user
 end
@@ -88,9 +91,19 @@ for i in (1..5) do
     end
     puts i
 end
-```
-    Output: 1 2
+# Output: 1 2
 
+for x in (10..15)
+    for i in (1..5)
+        if (i > 2)
+            break
+        end
+        puts i
+    end
+end
+# Output: 1 2 1 2 1 2 1 2 1 2
+```
+    
 ## next statement
 Jumps to the next iteration of the most internal loop.
 ```ruby
@@ -100,8 +113,18 @@ for i in (1..5) do
     end
     puts i
 end
+# Output: 2 3 4 5
+
+for x in (10..15)
+    for i in (1..5)
+        if (i > 2)
+            next
+        end
+        puts i
+    end
+end
+# Output: 1 2 1 2 1 2 1 2 1 2
 ```
-    Output: 2 3 4 5
 
 ## redo statement
 Restarts this iteration of the most internal loop, **without checking loop condition**.
