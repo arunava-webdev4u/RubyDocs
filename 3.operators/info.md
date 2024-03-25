@@ -9,7 +9,19 @@
 - Assignment operator
 - Comparison operator
 - Range operator
-  
+
+## Assignment Operator
+Lets start with assignment operator '='
+```ruby
+a = 10
+
+a, b = 2, 4     # a = 2, b = 4
+a, b, c, d = 2, 8, 3, 6     #similar
+a, b, c, d = 2, 8, 10       # d will be 'nil'
+
+a, b = b, a     # swap vales
+```
+
 ## Unary operator
 Unary operators expect a single operand to run on.
 | Operator | Description |
@@ -42,6 +54,20 @@ puts(3*6)   #18
 puts(64/16) #4
 puts(21%5)  #1
 puts(2**5)  #32
+
+# We can also call these operators this way, 
+# because they are methods also, and ruby is 
+# calling this way in the background
+puts 2.+5
+# or
+puts 7.-(3)
+# or
+puts 3.* 6
+# or
+puts 3 .* 6
+puts 64./16
+puts 64.div 16
+
 ```
 
 ## Bitwise Operator

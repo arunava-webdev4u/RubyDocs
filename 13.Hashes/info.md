@@ -74,6 +74,21 @@ color.each do |key, value|
     puts "#{key} color is #{value}"
 end
 ```
+dig - method
+```ruby
+    user = {
+        nake: "arunava",
+        tech: [
+            {name: "Java", exp: 4},
+            {name: "Ruby", exp: 2},
+            {name: "Python", exp: 1},
+            {name: "JavaScript", exp: 5},
+        ],
+        age: 22
+    }
+
+    puts user.dig(:name)
+```
 
 ## Ruby Hash Methods
 ### Public Class Methods

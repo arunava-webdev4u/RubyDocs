@@ -70,6 +70,7 @@ There are **five types** of variables supported by Ruby.
     ?a                   # character code for 'a'
     ?\n                  # code for a newline (0x0a)
     12345678901234567890 # Bignum
+    PI = 3.14            #constant
     ```
 
 ## Floating Numbers
